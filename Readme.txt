@@ -21,15 +21,9 @@ Completed
 
 Incomplete/Missing
 1. There is no user login and flow separation.
-2. Not enough rigourous testing especially integrated.
-3. Consent Request/Waitlist logic incomplete
-
-Reason for Incomplete Deliverables
-1. Struggled with database design. OOP design did not match up with db logic and
-heavy redesign carried out at the very end.
+2. Not enough rigourous integrated testing.
 
 Patterns Used
 1. Builder to build a course/offering/section (controllers.py)
 2. Decorator and Singleton for the database (database.py)
 3. Chain of Responsibility and Template method (using ABCs) for implementing Course Registration(course_registration.py)
-
